@@ -12,10 +12,10 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <style type="text/css">
         .smooth-bg {
-            background-color: #e1fce8;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+            background-color: #eff1f0;
+            -webkit-transition: background-color 1000ms linear;
+            -ms-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
         }
     </style>
 </head>
@@ -184,15 +184,97 @@
             </div>
         </div>
 
+        <!-- PROGRAMMING BASIC PACKAGE -->
+        <div class="row wrapper white-bg page-heading">
+            <div class="col-lg-10">
+                <h2 class="font-bold text-info">Paket Web Programming</h2>
+            </div>
+        </div>
 
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <!-- Package Programming -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Paket Aplikasi Web</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="ibox-content">
+                            <div class="table-responsive">
+                                <table id="tableWebApp" class="table table-striped table-bordered table-condensed">
+                                    <thead class="text-center">
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Topik Pelatihan</th>
+                                            <th>Pertemuan</th>
+                                            <th>Durasi (Jam)</th>
+                                            <th>Harga (Rp)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="4" class="text-right">
+                                                TOTAL HARGA
+                                            </th>
+                                            <th></th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <p>
+                                <div style="border-top: 1px dotted #ccc; color: #777;">
+                                    NB: Anda dapat memesan satu atau lebih topik pelatihan diatas
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>      
+                </div>
+            </div>
+        </div>
+
+        <div class="row white-bg">
+            <div class="col-12">
+                <h4 class="text-danger">Catatan</h4>
+            
+                <ul style="list-style-type: none;">
+                    <li>
+                        <p class="badge badge-primary"> Harga sewaktu-waktu dapat berubah </p>
+                    </li>
+                    <li>
+                        <p class="badge badge-info"> Pelatihan/Kursus ini tidak ada sertifikat dan tidak menjanjikan pekerjaan untuk peserta didiknya </p>
+                    </li>
+                    <li>
+                        <p class="badge badge-warning"> Kursus ini bertujuan untuk meningkatkan soft skill anda di dunia digital</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row clearfix">&nbsp;</div>
 
         <div class="footer">
-            <div class="float-right">
-                <strong>OSC Technology Course & Service</strong> &copy; 2020
+            <div class="row">
+                <div class="col-12">
+                    <div class="float-right">
+                        <strong>OSC Technology Course & Service</strong> &copy; 2020
+                    </div>
+                    <div>
+                        Personal Trainer & Creator <strong>Ruben Alpredo Tampubolon</strong>
+                    </div>
+                </div>
             </div>
-            <div>
-                Personal Trainer & Creator <strong>Ruben Alpredo Tampubolon</strong>
-            </div>
+            
         </div>
 
     </div>
@@ -377,6 +459,7 @@ $(document).ready(function () {
     
     collectionDataTable('tableOfficePackage', office_package)
     collectionDataTable('tableHTMLCSS', css_html_package);
+    collectionDataTable('tableWebApp', css_html_package);
 });
 
 </script>

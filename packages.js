@@ -23,7 +23,7 @@ var office_package = [
         price: 350000
     },
     { 
-        id: 3, 
+        id: 4, 
         name: 'Microsoft Office Access',
         duration: '4 Minggu (2 Hari/Minggu)',
         time: 2,
@@ -41,25 +41,50 @@ var css_html_package = [
         price: 600000
     },
     { 
-        id: 1, 
+        id: 2, 
         name: 'Desain Web (CSS)', 
         duration: '4 Minggu (3 Hari/Minggu)',
         time: 2,
         price: 600000
     },
     { 
-        id: 1, 
+        id: 3, 
         name: 'Javascript Fundamental', 
         duration: '4 Minggu (3 Hari/Minggu)',
         time: 2,
         price: 750000
     },
     { 
-        id: 1, 
+        id: 4, 
         name: 'Database Fundamental', 
         duration: '4 Minggu (2 Hari/Minggu)',
         time: 2,
         price: 650000
+    },
+];
+
+
+var css_html_package = [
+    { 
+        id: 1, 
+        name: 'Aplikasi Web I (Laravel, JQuery, HTML dan CSS / Integrasi Admin Template)', 
+        duration: '5 Minggu (3 Hari/Minggu)',
+        time: 2.5,
+        price: 2700000
+    },
+    { 
+        id: 2, 
+        name: 'Aplikasi Web II (Express JS, HTML dan CSS / Custom Web Template)', 
+        duration: '5 Minggu (3 Hari/Minggu)',
+        time: 2.5,
+        price: 3000000
+    },
+    { 
+        id: 3, 
+        name: 'Node JS/Express JS Rest API', 
+        duration: '4 Minggu (2 Hari/Minggu)',
+        time: 2.5,
+        price: 3000000
     },
 ];
 
