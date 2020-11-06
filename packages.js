@@ -88,3 +88,14 @@ var web_application = [
     },
 ];
 
+
+var graphic_design = [
+    { 
+        id: 1, 
+        name: 'Photoshop', 
+        duration: '5 Minggu (3 Hari/Minggu)',
+        time: 1,
+        price: 900000
+    },    
+];
+
