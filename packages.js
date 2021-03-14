@@ -42,24 +42,38 @@ var css_html_package = [
     },
     { 
         id: 2, 
-        name: 'Desain Web (CSS)', 
+        name: 'Pemograman CSS Dasar', 
         duration: '5 Minggu (3 Hari/Minggu)',
         time: 1,
-        price: 675000
+        price: 750000
     },
     { 
         id: 3, 
-        name: 'Javascript Fundamental', 
+        name: 'Pemograman CSS Lanjutan', 
         duration: '6 Minggu (3 Hari/Minggu)',
         time: 1,
-        price: 810000
+        price: 900000
     },
     { 
         id: 4, 
+        name: 'Pemograman Javascript Dasar', 
+        duration: '6 Minggu (3 Hari/Minggu)',
+        time: 1,
+        price: 950000
+    },
+    { 
+        id: 5, 
+        name: 'Pemograman Javascript Lanjutan', 
+        duration: '6 Minggu (3 Hari/Minggu)',
+        time: 1,
+        price: 950000
+    },
+    { 
+        id: 6, 
         name: 'Database Fundamental', 
         duration: '5 Minggu (3 Hari/Minggu)',
         time: 1,
-        price: 675000
+        price: 800000
     },
 ];
 
